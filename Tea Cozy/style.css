@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Universal Styles */
+
+body {
+	font-family: 'Helvetica';
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+}
+
+
+/* Header */
+
+header {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	color: seashell;
+}
+
+header nav {
+	padding-right: 100px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.logo img{
+	height: 50px;
+}
+
+
+/* Hero */
+
+
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	height: 700px;
+}
+
+.hero .hero-text {
+	background-color: black;
+	width: 1200px;
+}
+
+/* Tea Types Container */
+
+.flex-container {
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.box {
+	background-color: orange;
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+}
+
+/* Locations Container */
+
+.locations-title {
+	position: absolute;
+	margin-bottom: 360px;
+}
+
+.locations-container {
+	display: flex;
+	width: 1200px;
+	height: 500px;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.loc-box {
+	align-items: center;
+	display: inline-block;
+	background-color: black;
+	width: 300px;
+	margin-right: 40px;
+	opacity: 1;
+}
+
+.copyright {
+	text-align: left;
+}
+
+footer {
+	height: 200px;
+}
